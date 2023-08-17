@@ -12,6 +12,10 @@ header {
   padding: 0 75px;
 }
 
+/* @media Screen and (max-width:500px) {
+  display: flex;
+} */
+
 h1 {
   font-size: 70px;
   font-weight: 600;
