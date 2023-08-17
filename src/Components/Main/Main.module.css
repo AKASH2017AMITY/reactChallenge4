@@ -1,0 +1,110 @@
+#main {
+  height: calc(100vh - 165px);
+  background-image: url("/public/images/background-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 50px ;
+  
+}
+
+.cardContainer {
+  display: flex;
+  gap: 25px;
+  width: 75%;
+  flex-wrap: wrap;
+  /* border: 5px solid lawngreen; */
+  margin: 0 auto;
+
+}
+
+.card {
+  display: flex;
+  gap: 10px;
+  border-radius: 20px;
+  background: radial-gradient(
+        80.38% 222.5% at -13.75% -12.36%,
+        #98f9ff 0%,
+        rgba(255, 255, 255, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        90.16% 143.01% at 15.32% 21.04%,
+        rgba(165, 239, 255, 0.2) 0%,
+        rgba(110, 191, 244, 0.0447917) 77.08%,
+        rgba(70, 144, 213, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        80.69% 208.78% at 108.28% 112.58%,
+        #eabfff 0%,
+        rgba(135, 38, 183, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  border: 0.66px solid;
+
+  border-image-source: radial-gradient(
+        80.69% 208.78% at 108.28% 112.58%,
+        #eabfff 0%,
+        rgba(135, 38, 183, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        80.38% 222.5% at -13.75% -12.36%,
+        #98f9ff 0%,
+        rgba(255, 255, 255, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+.leftSideCard {
+  margin: 10px 0 0 0;
+}
+.leftSideCard img {
+  height: 135px;
+  width: 135px;
+}
+.rightSideCard {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 10px;
+}
+
+.heading {
+  font-size: 20px;
+  color: white;
+  margin: 15px 5px 0 0;
+}
+
+.priceBtnContainer {
+  margin: 15px 10px 5px 0;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.priceBtn {
+  background-color: red;
+  /* margin: 0 5px 5px 0; */
+  font-size: small;
+  border: none;
+  padding: 4px 8px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  /* text-align: center; */
+  margin-bottom: 5px;
+}
+.priceBtn:hover {
+  background-color: rgb(114, 9, 9);
+  /* margin: 0 5px 5px 0; */
+  font-size: small;
+  border: none;
+  padding: 4px 8px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  /* text-align: center; */
+  margin-bottom: 5px;
+}
