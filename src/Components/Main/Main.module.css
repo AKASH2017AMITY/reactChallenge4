@@ -1,3 +1,7 @@
+section {
+    margin: 0;
+}
+
 #main {
   min-height: calc(100vh - 165px);
   background-image: url("/public/images/background-image.jpg");
